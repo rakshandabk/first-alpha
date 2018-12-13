@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title> Employee Repositories </title>
+    <style type="text/css">
+        div.a{
+            text-align:center
+        }
+            </style>
+</head>
+<body>
+   <form id="form1" runat="server">  
+            <div class="a">  
+                    <h1 style="text-align:center">Employee Repositories</h1>  
+                    
+                            <asp:ContentPlaceHolder ID="MainContentPlaceHolder1" runat="server">  
+                                 
+                            </asp:ContentPlaceHolder> 
+               
+                                        
+            </div>  
+        </form> 
+</body>
+</html>
